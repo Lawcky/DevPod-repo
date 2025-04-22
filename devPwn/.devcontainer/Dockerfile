@@ -10,7 +10,7 @@ WORKDIR /pwn
 
 RUN mkdir /pwn/.files
 
-RUN wget https://github.com/pwndbg/pwndbg/releases/download/2025.04.18/pwndbg_2025.04.18_amd64.deb -o /pwn/.files/pwndbg_2025.04.18_amd64.deb
+RUN wget https://lawcky.net/asset/pwndbg_2025.04.18_amd64.deb -o /pwn/.files/pwndbg_2025.04.18_amd64.deb
 
 RUN apt install /pwn/.files/*.deb -y
 
